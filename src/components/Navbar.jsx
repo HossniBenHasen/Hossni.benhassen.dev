@@ -77,7 +77,17 @@ const Navbar = () => {
                 active === nav.id ? "text-white" : "text-secondary"
               } hover:text-white text-[18px] font-medium cursor-pointer`}
             >
-              <a href={`#${nav.id}`}>{nav.title}</a>
+              {nav.id === "Resume" ? (
+                  <a
+                      href="https://drive.google.com/file/d/1MMwgru0m2MZ0NHx5D97nuLxRNZS_91DU/view?usp=sharing"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                  >
+                    {nav.title}
+                  </a>
+              ) : (
+                  <a href={`#${nav.id}`}>{nav.title}</a>
+              )}
             </li>
           ))}
         </ul>
@@ -106,7 +116,17 @@ const Navbar = () => {
                     setToggle(!toggle);
                   }}
                 >
-                  <a href={`#${nav.id}`}>{nav.title}</a>
+                  {nav.id === "Resume" ? (
+                      <a
+                          href="https://drive.google.com/file/d/1MMwgru0m2MZ0NHx5D97nuLxRNZS_91DU/view?usp=sharing"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                      >
+                        {nav.title}
+                      </a>
+                  ) : (
+                      <a href={`#${nav.id}`}>{nav.title}</a>
+                  )}
                 </li>
               ))}
             </ul>
