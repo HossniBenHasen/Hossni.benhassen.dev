@@ -31,6 +31,7 @@ import uha from "./company/uha.png";
 
 
 import project_2 from "./project2.png";
+import project_3 from "./project_3.png";
 
 
 export {
@@ -63,4 +64,5 @@ export {
   hdm,
   uha,
   project_2,
+  project_3,
 };

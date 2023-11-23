@@ -2,38 +2,18 @@
 ## star1: About the Project
 
 <div align="center">
-  <img src=""/>
+  <img src="./readme_assets/project_3.png"/>
 </div>
 
 <br />
 
 This repository houses an well-designed and functional Developer Portfolio Website consisting Navbar, Hero, Overview, Work Experience, Technologies, Projects, Testimonials and Contact sections built with React & Three.js using TailwindCSS ⏭
 
-<!-- Folder Structure -->
-### :bangbang: Folder Structure
 
-Here is the folder structure of 3D-Portfolio.
-```bash
-Threejs_3D_Portfolio/
-|- public/
-|- src/
-  |-- assets/
-  |-- components/
-  |-- constants/
-  |-- hoc/
-  |-- utils/
-  |-- App.jsx
-  |-- index.css
-  |-- main.jsx
-  |-- styles.js
-|- postcss.config.cjs
-|- tailwind.config.cjs
-|- vite.config.js
-```
-<br />
+
 
 <!-- TechStack -->
-### :space_invader: Tech Stack
+### Tech Stack
 
 [![My Skills](https://skillicons.dev/icons?i=js,react,tailwind,threejs)](https://skillicons.dev)
 
@@ -48,7 +28,7 @@ Threejs_3D_Portfolio/
 Download or clone this repo by using the link below:
 
 ```bash
- 
+ git clone https://github.com/HossniBenHasen/Hossni.benhassen.dev
 ```
 
 #### Step 2:

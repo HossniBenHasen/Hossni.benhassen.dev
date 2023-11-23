@@ -17,6 +17,7 @@ import {
   hdm,
   uha,
   project_2,
+  project_3,
   threejs,
   angular,
   java,
@@ -211,7 +212,7 @@ const testimonials = [
 ];
 
 const projects = [
-  {
+  /*{
     name: "Tangram Game",
     description:
       "Architected and developed Tangram Adventure, an engaging web-based puzzle game showcasing a seamless blend of creativity and logic, featuring diverse Tangram challenges and a robust tech stack including Angular and Java.",
@@ -229,9 +230,9 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: project_2,
+    image:,
     source_code_link: "https://github.com/HossniBenHasen/Tangram_Game",
-  },
+  },*/
   {
     name: "Angular/Spring security auth service",
     description:
@@ -252,6 +253,27 @@ const projects = [
     ],
     image: project_2,
     source_code_link: "https://github.com/HossniBenHasen/angular-spring-register-login",
+  },
+  {
+    name: "HOSSNI.BEN.HASSEN DEV",
+    description:
+        "Personal portfolio template built with React & Three.js using TailwindCSS",
+    tags: [
+      {
+        name: "React",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "TailwindCSS",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Three.js",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: project_3,
+    source_code_link: "https://github.com/HossniBenHasen/Hossni.benhassen.dev",
   },
 
 ];
